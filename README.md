@@ -1,7 +1,7 @@
 # [Rubberglue](https://github.com/adhdproject/rubberglue) dockerized
 
-I'm rubber and you're glue. Everything you say bounces off of me and sticks to you.
-
+I'm rubber and you're glue. Everything you say bounces off of me and sticks to you.<br>
+[![Docker CI](https://github.com/Just5KY/rubberglue/actions/workflows/docker.yml/badge.svg)](https://github.com/Just5KY/rubberglue/actions/workflows/docker.yml)
 ## Run
 
 `python3 rubberglue.py`
