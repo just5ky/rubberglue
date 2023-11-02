@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout the code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Pull the Docker image
       run: docker pull ${{ secrets.DOCKERHUB_USERNAME }}/rubberglue
     - name: Run the Anchore scan action itself with GitHub Advanced Security code scanning integration enabled
@@ -60,7 +60,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Pull the Docker image
         run: docker pull ${{ secrets.DOCKERHUB_USERNAME }}/rubberglue
@@ -97,7 +97,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
