@@ -66,7 +66,7 @@ jobs:
         run: docker pull ${{ secrets.DOCKERHUB_USERNAME }}/rubberglue
 
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@1994662b5555670344cd84d29ed3cad4bd26f31c
+        uses: aquasecurity/trivy-action@876cf04c63f65e9799bcf1043b584e72469c7143
         with:
           image-ref: '${{ secrets.DOCKERHUB_USERNAME }}/rubberglue'
           format: 'template'
